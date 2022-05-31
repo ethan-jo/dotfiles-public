@@ -3,7 +3,7 @@
 
 Import-Module posh-git
 Import-Module oh-my-posh
-$omp_config = Join-Path $PSScriptRoot ".\takuya.omp.json"
+$omp_config = Join-Path $env:USERPROFILE ".\haffxu.omp.json"
 oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
 
 Import-Module -Name Terminal-Icons
