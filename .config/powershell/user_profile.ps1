@@ -23,6 +23,7 @@ $env:GIT_SSH = "C:\Windows\system32\OpenSSH\ssh.exe"
 
 # Alias
 Set-Alias -Name vim -Value nvim
+Set-Alias vi nvim
 Set-Alias ll ls
 Set-Alias g git
 Set-Alias grep findstr
