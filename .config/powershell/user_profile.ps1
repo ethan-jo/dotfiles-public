@@ -35,4 +35,6 @@ function which ($command) {
   Get-Command -Name $command -ErrorAction SilentlyContinue |
     Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
 }
-
+function showproxy{netsh winhttp show proxy}
+function resetproxy{netsh winhttp reset proxy}
+function setproxy{netsh winhttp set proxy 127.0.0.1:7890}
