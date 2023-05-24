@@ -46,3 +46,13 @@ function ssh-copy-id($remote){
 function showproxy{netsh winhttp show proxy}
 function resetproxy{netsh winhttp reset proxy}
 function setproxy{netsh winhttp set proxy 127.0.0.1:7890}
+
+#Alias for server
+function s123 {ssh root@10.10.10.123}
+function s127 {ssh root@10.10.10.127}
+function s48 {ssh root@172.16.20.48}
+function s5 {ssh root@172.16.20.5}
+function s200 {ssh bridge@172.16.20.200}
+function s222 {ssh bridge@172.16.20.222}
+function s211 {ssh bridge@172.16.20.211}
+function s88 {ssh bridge@10.20.167.88}
